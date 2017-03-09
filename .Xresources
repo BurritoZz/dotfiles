@@ -1,0 +1,28 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use "!"
+
+! URxvt settings
+
+URxvt.font:         xft:anonymous pro:size=12:antialias=true
+URxvt.boldFont:     xft:anonymous pro:bold:size=12:antialias=true
+URxvt.transparent:       true
+
+URxvt*keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt*perl-ext-common: default,clipboard
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
+
