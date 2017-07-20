@@ -11,7 +11,7 @@
 
 URxvt.font:         xft:anonymous pro:size=12:antialias=true
 URxvt.boldFont:     xft:anonymous pro:bold:size=12:antialias=true
-URxvt.transparent:       true
+#URxvt.transparent:  true
 
 URxvt*keysym.Shift-Control-V: perl:clipboard:paste
 
