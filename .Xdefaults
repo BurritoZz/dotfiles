@@ -1,8 +1,8 @@
 ! urxvt
 
 URxvt*geometry:                115x40
-URxvt*font: xft:Inconsolata:pixelsize=17:antialias=true:hinting=true
-URxvt*boldFont: xft:Inconsolata:bold:pixelsize=17:antialias=false:hinting=true
+URxvt*font: xft:Anonymice Nerd Font:pixelsize=17:antialias=true:hinting=true
+URxvt*boldFont: xft:Anonymice Nerd Font:bold:pixelsize=17:antialias=false:hinting=true
 URxvt*depth:                24
 URxvt*borderless: 1
 URxvt*scrollBar:            false
